@@ -1,0 +1,50 @@
+
+.services-section {
+    position: relative;
+  }
+  
+  .central-image {
+    z-index: 2;
+    width: 200px; /* Adjust based on your design */
+  }
+  
+  .services-container {
+    position: relative;
+    height: 400px; /* Adjust based on your design */
+  }
+  
+  .service-item {
+    position: absolute;
+    text-align: center;
+    width: 100px; /* Adjust based on your design */
+  }
+  
+  .top-left {
+    top: 0;
+    left: 50%;
+    transform: translate(-150%, -50%);
+  }
+  
+  .top-right {
+    top: 0;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+  
+  .bottom-left {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-150%, 50%);
+  }
+  
+  .bottom-right {
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+  
+  .service-icon {
+    width: 50px; /* Adjust based on your design */
+    margin-bottom: 8px;
+  }
+  
