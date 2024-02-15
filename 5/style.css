@@ -1,0 +1,122 @@
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: black; /* Change font color to black */
+    padding: 20px; /* Add padding for better readability */
+    background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent background to improve readability */
+}
+
+.carousel-caption p {
+    text-align: right; /* Align paragraph text to the right */
+}
+
+.process .row .col-sm-3 img {
+    width: 100px; /* Set the width to 200 pixels */
+    height: 100px; /* Set the height to 150 pixels */
+}
+.content .carousel-caption p {
+    color: black; /* Change font color to black */
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
+
+
+
+.process-step {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  @media (max-width: 767px) {
+    .process-step {
+      margin-bottom: 30px;
+    }
+  }
+
+
+  .process-image {
+    max-height: 10%; /* Adjust the max-height as needed */
+    width: 50%;
+    object-fit: cover; /* This will cover the area without stretching the image */
+  }
+  
+  @media (max-width: 991px) {
+    .process-image {
+      max-height: 200px; /* Smaller images on smaller devices */
+    }
+  }
+
+
+  .services-section {
+    position: relative;
+  }
+  
+  .central-image {
+    z-index: 2;
+    width: 200px; /* Adjust based on your design */
+  }
+  
+  .services-container {
+    position: relative;
+    height: 400px; /* Adjust based on your design */
+  }
+  
+  .service-item {
+    position: absolute;
+    text-align: center;
+    width: 100px; /* Adjust based on your design */
+  }
+  
+  .top-left {
+    top: 0;
+    left: 50%;
+    transform: translate(-150%, -50%);
+  }
+  
+  .top-right {
+    top: 0;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+  
+  .bottom-left {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-150%, 50%);
+  }
+  
+  .bottom-right {
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+  
+  .service-icon {
+    width: 50px; /* Adjust based on your design */
+    margin-bottom: 8px;
+  }
+  
+  /* Add more positioning classes if there are more than four services */
+  .custom-bg {
+    background-color: #B97A57;
+    color: white; /* Optionally, set text color to white for better contrast */
+    padding: 15px; /* Add padding for spacing */
+}
